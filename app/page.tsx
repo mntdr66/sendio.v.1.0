@@ -65,7 +65,8 @@ export default function Home() {
                 }}
               />
 
-              <h4>{c.name}</h4>
+              <h4>{c.company_name}</h4>
+              
             </div>
           ))}
         </div>
