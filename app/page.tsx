@@ -24,7 +24,7 @@ export default function Home() {
           Sendio Platform
         </h1>
 
-        <p style={{ fontSize: 18, marginTop: 10 }}>
+        <p>Count: {companies.length}</p>
           Find companies, workers and services instantly
         </p>
 
