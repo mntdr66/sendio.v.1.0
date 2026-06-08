@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
 
   async function getCompanies() {
-    const { data } = await supabase.from("entreprises").select("*");
+    const { data } = await supabase.from("companies").select("*");
     setCompanies(data || []);
   }
 
